@@ -88,7 +88,6 @@
 
 [
   (this)
-  ; https://github.com/alliedmodders/sourcemod/blob/5c0ae11a4619e9cba93478683c7737253ea93ba6/plugins/include/handles.inc#L78
   (hardcoded_symbol)
 ] @variable.builtin
 

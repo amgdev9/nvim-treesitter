@@ -1,4 +1,3 @@
-; adapted from https://github.com/monaqa/tree-sitter-mermaid
 [
   "sequenceDiagram"
   "classDiagram"

@@ -1,4 +1,3 @@
-;From MDeiml/tree-sitter-markdown & Helix
 (setext_heading
   (paragraph) @markup.heading.1
   (setext_h1_underline) @markup.heading.1)

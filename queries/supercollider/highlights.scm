@@ -1,5 +1,4 @@
 ; highlights.scm
-; See this for full list: https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md
 ; comments
 (line_comment) @comment @spell
 

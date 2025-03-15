@@ -1,4 +1,3 @@
-; From MDeiml/tree-sitter-markdown
 (code_span) @markup.raw @nospell
 
 (emphasis) @markup.italic

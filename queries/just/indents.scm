@@ -1,4 +1,3 @@
-; Source: https://github.com/IndianBoy42/tree-sitter-just/blob/main/queries/just/indents.scm
 [
   (recipe)
   (string)

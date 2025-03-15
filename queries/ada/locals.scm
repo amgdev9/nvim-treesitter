@@ -1,6 +1,5 @@
 ;  Better highlighting by referencing to the definition, for variable
 ;  references. However, this is not yet supported by neovim
-;  See https://tree-sitter.github.io/tree-sitter/syntax-highlighting#local-variables
 (compilation) @local.scope
 
 (package_declaration) @local.scope

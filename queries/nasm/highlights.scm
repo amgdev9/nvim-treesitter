@@ -1,4 +1,3 @@
-; adapted from https://github.com/naclsn/tree-sitter-nasm/blob/main/queries/highlights.scm
 (word) @variable
 
 ((word) @constant

@@ -59,7 +59,6 @@ body: (_
 ; the #any-of? queries are moved above the #has-ancestor? queries to
 ; short-circuit the potentially expensive tree traversal, if possible
 ; see:
-; https://github.com/nvim-treesitter/nvim-treesitter/pull/4302#issuecomment-1685789790
 ; directive labels in wildcard context
 ((wildcard
   (identifier) @label)

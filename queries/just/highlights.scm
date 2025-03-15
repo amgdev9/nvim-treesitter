@@ -103,7 +103,6 @@
   (recipe_body) @string
   (#set! priority 90))
 
-; Ref: https://just.systems/man/en/chapter_26.html
 ;(setting (identifier) @error)
 (setting
   (identifier) @constant.builtin
@@ -115,7 +114,6 @@
   (attribute
     (identifier) @attribute))
 
-; https://just.systems/man/en/attributes.html
 ((recipe
   (attribute
     (identifier) @attribute.builtin))
@@ -135,7 +133,6 @@
     argument: (string) @string.special.path))
   (#eq? @_dir "working-directory"))
 
-; Ref: https://just.systems/man/en/chapter_31.html
 ;(function_call (identifier) @error)
 (function_call
   (identifier) @function.call

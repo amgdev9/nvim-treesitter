@@ -67,7 +67,6 @@
 ((attribute_type) @type.builtin
   ;format-ignore
   (#any-of? @type.builtin
-    ;; Reference: https://openusd.org/release/api/sdf_page_front.html
     ;; Scalar types
     "asset" "asset[]"
     "bool" "bool[]"
@@ -125,7 +124,6 @@
 
 ((identifier) @keyword
   (#any-of? @keyword
-    ; Reference: https://openusd.org/release/api/sdf_page_front.html
     ; LIVRPS names
     "inherits" "payload" "references" "specializes" "variantSets" "variants"
     ; assetInfo names
