@@ -236,7 +236,7 @@ function M.select_download_commands(repo, project_name, cache_folder, revision, 
   local is_github = repo.url:find("github.com", 1, true)
   local is_gitlab = repo.url:find("gitlab.com", 1, true)
 
-  revision = revision or repo.branch or "master"
+  revision = revision or repo.branch or "main"  -- AMG parsers repo uses 'main' as default branch
 
   if can_use_tar and (is_github or is_gitlab) and not prefer_git then
     local path_sep = utils.get_path_sep()
